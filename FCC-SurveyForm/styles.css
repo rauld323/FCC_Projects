@@ -1,0 +1,104 @@
+*{
+    font-size: 25px;
+}
+
+.main{
+   background: url(img/backg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#title{
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-emphasis-color: black;
+}
+
+#description{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-emphasis-color: black;
+}
+
+
+#survey-form{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+width: 50%;
+margin-left: 25%;
+background-color: #708090;
+opacity: 90%;
+border-radius: 5%; 
+}
+
+.form-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+#name-label, #number-label, #email-label{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+#name, #number, #email{
+    display: flex;
+    margin-bottom: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.drop{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+#drop-info, #dropdown{
+    width: 100%;
+}
+
+
+.radio{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+#radio-info, #radio-btn, #check{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#comments{
+    margin-top:-10px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.comments{
+    margin-bottom: 10px;
+    padding: 4px 4px;
+    color: white;
+    font-size: 20px;
+}
+#submit{
+    width: 20%;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+
+}

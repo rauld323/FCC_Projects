@@ -1,0 +1,76 @@
+<!-- Still need to finish -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Education for All Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body class="main">
+    <h1 id="title">Hello</h1>
+    <p id="description"> So this is what we are going to do</p>
+  
+        <form id="survey-form">
+
+        <div class="form-section">
+            <label id="name-label">Full Name</label>
+            <br>
+            <input id="name" type="text" placeholder="Full Name" required />
+        </div>
+
+        <div class="form-section">
+            <label id="number-label">Age</label>
+            <br>
+            <input id="number" type="number" placeholder="Age" min="0" max="100">
+        </div>
+
+        <div class="form-section">
+            <label id="email-label">E-mail</label>
+            <br>
+            <input id="email" type="email" placeholder="Email" required />
+        </div>
+        
+        <div class="drop">
+            <label class="drop-info">Please choose one of out choices</label>
+            <br>
+            <select id="dropdown">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        <div class="radio">
+            <label class="radio-info" >Pleae Choose one of these</label>
+            <br>
+            <div id="radio-btn" style="display: inline-block">
+                <input type="radio" name="dogs" value="smudge">Smudge
+                <br>
+                <input type="radio" name="dogs" value="frida">Frida
+                <br>
+            <input type="radio" name="dogs" value="jazz">Jazz
+            </div>
+       
+            <br>
+        <div id="check">
+            <label>What Color would you like?</label>
+            <br>    
+            <input type="checkbox" value="black">Black
+            <input type="checkbox" value="brown">Brown
+            <input type="checkbox" value="grey">Grey
+        </div>
+    </div>
+    
+        <label class="comments">Have any Commnets? Contact us!</label>
+        <br>
+        <textarea name="comments" id="comments" 
+        cols="100" rows="5"></textarea>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
